@@ -5,10 +5,12 @@ import  Banner from '../app/img/class-website-banner.png';
 import Logo from '../app/img/logo.jpg';
 import chalk from 'chalk';
 import { Navbar, NavbarBrand } from 'reactstrap';
+import { Link } from 'react-router-dom';
 
 const Header = () => {
     return(
     <div className='App'>
+            <Link to='/'>
             <Container>
                 <Row id= 'banner'>
                 <Col className="col-6 col-md-4 float-start">
@@ -22,6 +24,7 @@ const Header = () => {
                 </Col>
                 </Row>
             </Container>
+            </Link>
     </div>
     );
 }

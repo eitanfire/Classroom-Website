@@ -4,7 +4,6 @@ import Header from './components/Header';
 import EitanInfo from './features/EitanInfo.js';
 
 import React from 'react'
-import { render } from 'react-dom'
 import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
 import GoogleChart from './components/GoogleChart';
 import StudentDashboard from './components/StudentDashboard';
@@ -23,7 +22,7 @@ function App() {
        
       <Container>
         <Row>
-          <Header />
+            <Header />
           <Routes>
             <Route path='/' element={<HomePage />} />
             <Route path='read-more' element={<EitansIntro />} />
