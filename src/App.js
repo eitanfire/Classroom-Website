@@ -19,34 +19,12 @@ function App() {
   return (
     
     <div className="App">
-       
-       {/* <Container>
-        <Row> */}
             <Header />
           <Routes>
             <Route path='/' element={<HomePage />} />
             <Route path='read-more' element={<EitansIntro />} />
             <Route path='contact' element={<ContactForm />} />
           </Routes>
-        {/* </Row> */}
-        {/* <Row>
-          <Col className="col-6 col-md-4 d-none d-lg-block">
-            <EitanInfo />
-          </Col>
-          <Col >
-          <div className="accordion" >
-        {accordionData.map(({ title, content, image }) => (
-          <Accordion title={title} content={content} image={image} />
-        ))}
-      </div>
-          </Col>
-          <Row >
-          <Col >
-            <Calendar />
-          </Col>
-          </Row>
-        </Row> */}
-      {/* </Container > */}
     </div>
     
   );

@@ -10,7 +10,7 @@ img {
   max-height: 10rem;
   border: maroon;
   border-style: solid;
-  border-radius: 25px;
+  /* border-radius: 25px; */
 }
 
 #loveLearning {

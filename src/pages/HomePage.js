@@ -6,25 +6,23 @@ import Accordion from '../Accordion';
 
 
 const HomePage = () => {
-    return   (
-    <Container>
-    <Row>
-          <Col className="col-6 col-md-4 d-none d-lg-block">
-            <EitanInfo />
-          </Col>
-          <Col >
-          <div className="accordion" >
-        {accordionData.map(({ title, content, image }) => (
-          <Accordion title={title} content={content} image={image} />
-        ))}
-      </div>
-          </Col>
-          <Row >
-          <Col >
-            <Calendar />
-          </Col>
-          </Row>
-        </Row> 
+    return (
+        <Container>
+            <Row>
+                <Col className="col-6 col-md-3 d-none d-lg-block">
+                    <EitanInfo />
+                </Col>
+                <Col className=" accordion col-12 col-md-9">
+                    {accordionData.map(({ title, content, image }) => (
+                        <Accordion title={title} content={content} image={image} />
+                    ))}
+                </Col>
+                <Row >
+                    <Col >
+                        <Calendar />
+                    </Col>
+                </Row>
+            </Row>
         </Container>
     );
 };
