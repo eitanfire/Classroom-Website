@@ -1,6 +1,7 @@
 body {
    /* background-color: #d5dbdc; */
    background-image: url("app/img/paper-wallpaper.png");
+   font-family: "Times New Roman"
 }
 
 img {
@@ -66,4 +67,26 @@ img {
       rgba(238, 174, 202, 1) 0%,
       rgba(199, 233, 148, 1) 100%);
       
+}
+
+/* iframe {
+    display:block;
+    width: 50%;
+    height: 100%;
+    margin: 0 auto;
+    background-color: rgb(129, 59, 59);
+} */
+
+.ContactForm {
+  display:block;
+  width: 50%;
+  height: 100%;
+  margin: 0 auto;
+  background-color: rgb(129, 59, 59);
+}
+
+.classImage {
+  background-image: linear-gradient(to right, #800020, #a9347e, #14c7d7);
+  width: 80%;
+  display: block
 }

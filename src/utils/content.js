@@ -6,7 +6,7 @@ import Survival from '../app/img/survive-the-world-banner.png';
 export const accordionData = [
   {
     title: `📽 Film`,
-    image: <img width="100%" src={Film} alt='Film banner' />,
+    image: <img className="classImage mx-auto" src={Film} alt='Film banner' />,
     content: 
         <>
           <a
@@ -40,7 +40,7 @@ export const accordionData = [
   },
   {
     title: '👩🏿‍💻 Programming and Web Development',
-    image: <img width="100%" src={Programming} alt='Programming banner' />,
+    image: <img className="classImage mx-auto" src={Programming} alt='Programming banner' />,
     content:  <>
     <a
     role='button'
@@ -73,7 +73,7 @@ export const accordionData = [
   },
   {
     title: '⚔ Epics',
-    image: <img width="100%" src={Epics} alt='Epics banner' />,
+    image: <img className="classImage mx-auto"src={Epics} alt='Epics banner' />,
     content:  <>
     <a
     role='button'
@@ -106,7 +106,7 @@ export const accordionData = [
   },
   {
     title: `🧭 Survive the World!`,
-    image: <img width="100%" src={Survival} alt='Survive the World banner' />,
+    image: <img className="classImage mx-auto" src={Survival} alt='Survive the World banner' />,
     content: <>
     <a
     role='button'

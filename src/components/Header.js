@@ -18,7 +18,7 @@ const Header = () => {
                 </Col>
                 <Col className="col-6 col-md-4 d-none d-lg-block">
                 <img id="logo" src={Logo} alt='September School logo' align="left"/>
-                        {/* <h2 id='loveLearning'className="col-sm-3 col-md-4 d-none d-lg-block">
+                        {/* <h2 id='loveLearning'className="d-none d-lg-block">
                             Reawakening the love of learning for <strong>50 years</strong>
                         </h2> */}
                 </Col>
