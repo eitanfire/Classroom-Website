@@ -2,14 +2,15 @@ import Film from '../app/img/film-banner.png';
 import Epics from '../app/img/epics-banner.png';
 import Programming from '../app/img/programming-banner.png';
 import Survival from '../app/img/survive-the-world-banner.png';
-
+import '../App.css';
 export const accordionData = [
-  {
+  { 
     title: `📽 Film`,
     image: <img className="classImage mx-auto" src={Film} alt='Film banner' />,
     content: 
-        <>
-          <a
+        < >
+          <div id='filmColor'>
+          <a 
           role='button'
           className='btn btn-light btn-link'
           href='https://docs.google.com/document/d/18EFYRk3c-5Y1wGQCO-ZzfasrFPO6V9Trhr3eDgPDEKY/edit?usp=sharing' target="_blank">
@@ -36,12 +37,14 @@ export const accordionData = [
           href='https://docs.google.com/document/u/1/d/1yR1lESYS7ZWYixmg3kjDqU4PGZwXBjFEgef_vt8vqZk/edit' target="_blank">
           Course Description
           </a>
+            </div>
           </>
   },
   {
     title: '👩🏿‍💻 Programming and Web Development',
     image: <img className="classImage mx-auto" src={Programming} alt='Programming banner' />,
     content:  <>
+     <div id='programmingColor' >
     <a
     role='button'
     className='btn btn-light btn-link'
@@ -69,12 +72,14 @@ export const accordionData = [
     href='https://docs.google.com/document/u/1/d/1zsWaLaGfaWAjilx5ikrSGXRmq20ydaqAyRf_RKMhbUY/edit' target="_blank">
     Course Description
     </a>
+    </div>
     </>
   },
   {
     title: '⚔ Epics',
     image: <img className="classImage mx-auto"src={Epics} alt='Epics banner' />,
     content:  <>
+     <div id='epicsColor'>
     <a
     role='button'
     className='btn btn-light btn-link'
@@ -102,17 +107,19 @@ export const accordionData = [
     href='https://docs.google.com/document/d/1V_O_Gi1ILTeoalAuvUfy9bhWXfGj85VPNt3p3Ei2bQc/edit?usp=sharing' target="_blank">
     Course Description
     </a>
+    </div>
     </>
   },
   {
     title: `🧭 Survive the World!`,
     image: <img className="classImage mx-auto" src={Survival} alt='Survive the World banner' />,
     content: <>
+         <div id='stwColor'>
     <a
     role='button'
     className='btn btn-light btn-link'
     href='https://docs.google.com/document/d/1RaIlhaK5Zr4dBh2vGJDRgTUknocZDSNfc85rzBLyNxM/edit?usp=sharing' target="_blank">
-  ✏️ Warm-Up Questions for  Survive the World!
+  ✏️ Warm-Up Questions for Survive the World!
     </a>
 
     <a
@@ -135,6 +142,7 @@ export const accordionData = [
     href='https://docs.google.com/document/d/1TdTq_k_Nu9NzwealS8cJjohWcGZoSXSDdl4LHLXUm5Y/edit?usp=sharing' target="_blank">
     Course Description
     </a>
+    </div>
     </>
 
   }

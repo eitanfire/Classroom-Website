@@ -1,6 +1,4 @@
 import React, { useState } from 'react';
-//import { faStar as farStar } from "@fortawesome/free-regular-svg-icons";
-
 
 const Accordion = ({ title, content, image }) => {
   const [isActive, setIsActive] = useState(false);
