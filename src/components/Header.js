@@ -9,7 +9,7 @@ import { Link } from 'react-router-dom';
 
 const Header = () => {
     return(
-    <div className='App'>
+    <div className='App' id ='Header'>
             <Link to='/'>
             <Container>
                 <Row id= 'banner'>

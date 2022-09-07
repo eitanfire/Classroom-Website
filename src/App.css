@@ -87,12 +87,15 @@ img {
 
 .classImage {
   background-image: linear-gradient(to right, #800020, #a9347e, #14c7d7);
-  width: 80%;
+  width: auto;
   display: block
 }
 
 #Footer {
-  text-align: center;
-  /* padding: 70px; */
-  
+  text-align: center;  
+}
+
+#Header {
+  min-width: 75%;
+  max-width: 85%;
 }
