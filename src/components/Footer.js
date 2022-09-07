@@ -3,7 +3,7 @@ import '../App.css';
 
 const Footer = () => {
     return (
-<h6 id= 'Footer'>© Eitan Fire 2022 A 🌍 Class Experience!</h6>
+<p id= 'Footer'>© Eitan Fire 2022 ⎸<span style={{fontStyle: 'italic'}}> A</span> <span style={{fontWeight: 'bold'}}>🌍</span> <span style={{fontStyle: 'italic'}}>Class Experience!</span></p>
     );
 }
 
