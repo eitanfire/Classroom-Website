@@ -3,7 +3,7 @@ import EitanInfo from '../features/EitanInfo.js';
 import { accordionData } from '../utils/content';
 import Calendar from '../components/Calendar.js';
 import Accordion from '../Accordion';
-
+import Footer from '../components/Footer.js';
 
 const HomePage = () => {
     return (
@@ -22,6 +22,9 @@ const HomePage = () => {
                         <Calendar />
                     </Col>
                 </Row>
+                    <Col>
+                        <Footer />
+                    </Col>
             </Row>
         </Container>
     );
