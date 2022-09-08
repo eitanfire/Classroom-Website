@@ -3,6 +3,7 @@ import Epics from '../app/img/epics-banner.png';
 import Programming from '../app/img/programming-banner.png';
 import Survival from '../app/img/survive-the-world-banner.png';
 import '../App.css';
+
 export const accordionData = [
   { 
     title: `📽 Film`,
@@ -40,7 +41,7 @@ export const accordionData = [
             </div>
           </>
   },
-  {
+  { 
     title: '👩🏿‍💻 Programming and Web Development',
     image: <img className="classImage mx-auto" src={Programming} alt='Programming banner' />,
     content:  <>
