@@ -1,6 +1,7 @@
 body {
    background-color: #d5dbdc;
-   background-image: url("app/img/paper-wallpaper.png");
+   /* background-image: url("app/img/paper-wallpaper.png"); */
+   
    font-family: "Times New Roman"
 }
 
@@ -9,9 +10,21 @@ img {
   margin-right: auto;
   max-width: auto;
   max-height: 10rem;
-  border: maroon;
-  border-style: solid;
-  /* border-radius: 25px; */
+  /* border: maroon; */
+  /* border-style: solid; */
+  /* border: green; */
+	/* background-image: url('https://s3.amazonaws.com/usefulangle/news/95-5f6cc1ad5575e.jpg'); */
+  border-radius: 5px;
+}
+
+#openCloseSymbols {
+  background-color: #21b2c2;
+  background-image: linear-gradient(to right,red, orange, Yellow, green, Blue, Indigo, violet);
+  margin-bottom: rem;
+  font-size: 30px;
+	font-weight: 700;
+  opacity: 0.5;
+
 }
 
 #loveLearning {
@@ -20,15 +33,28 @@ img {
 
 #logo {
   position: absolute;
+  top: 0px;
   right: 0px;
+  border: 4px solid maroon;
+  height: auto;
 }
 
 #banner{
-  background-color: #21b2c2;
-  background-image: linear-gradient(to right, #800020, #a9347e, #14c7d7);
-  margin-bottom: 2rem;
+  /* background-image: linear-gradient(to right, #800020, #a9347e, #14c7d7); */
+  /* background-image: linear-gradient(to right,red, orange, Yellow, green, Blue, Indigo, violet);
   max-height: 10rem;
+  opacity: 0.75; */
+  background-image: url('https://as2.ftcdn.net/v2/jpg/00/94/53/25/500_F_94532580_XwSK8I03t7oQY246gc6vdeU1wm6q2r8P.jpg');
+  margin-bottom: 2rem;
+  border: 5px solid maroon;
+  height: 160px;
 }
+
+#classWithEitan {
+  position: absolute;
+  border: 4px solid maroon;
+  top: 0px;
+  height: auto;}
 
 .StudentDashboard {
   min-width: fit-content;
@@ -36,7 +62,13 @@ img {
 
 .accordion {
   /* max-width: fit-content; */
-  margin: 2rem auto;
+  /* margin: 2rem auto; */
+	background-image: url('https://as2.ftcdn.net/v2/jpg/00/94/53/25/500_F_94532580_XwSK8I03t7oQY246gc6vdeU1wm6q2r8P.jpg');
+  padding-top: 5px;
+  padding-right: 6px;
+  padding-bottom: 5px;
+  padding-left: 6px;
+  align-items: center;
 }
 
 .accordion-title {
@@ -62,7 +94,7 @@ img {
       rgba(238, 174, 202, 1) 0%,
       rgba(199, 233, 148, 1) 100%); */
 
-      font-size: 50px;
+  font-size: 50px;
 	font-weight: 700;
 	background-clip: text;
 	-webkit-background-clip: text;
@@ -70,10 +102,41 @@ img {
 	background-image: url('https://as2.ftcdn.net/v2/jpg/00/94/53/25/500_F_94532580_XwSK8I03t7oQY246gc6vdeU1wm6q2r8P.jpg');
 }
 
-.accordion-title,
-.accordion-content {
-  padding: 2rem;
+.accordion-title:active {
+	background-image: url('https://as2.ftcdn.net/v2/jpg/00/94/53/25/500_F_94532580_XwSK8I03t7oQY246gc6vdeU1wm6q2r8P.jpg');
+
 }
+
+/* .accordion-title, */
+.accordion-content {
+  /* width: 220px; */
+  font-size: 50px;
+	background-clip: text;
+	-webkit-background-clip: text;
+	color: transparent;
+  -webkit-text-stroke: 1px rgb(71, 203, 86);
+}
+	/* font-weight: 700; */
+  /* width: 100%;
+  transform: translateX(-50);
+  transition: transform 400ms ease-in;
+}
+.panelHorizontal.slideIn {
+  transform: translateX(0);
+}
+.panelHorizontal.slideOut {
+  transform: translateX(0);
+} */
+  /* position: bottom;
+  /* right: 50%;
+  left: 50%;*/
+  /* padding: 2rem; */
+  /* font-size: 50px;
+	font-weight: 700;
+  background-clip: text;
+	-webkit-background-clip: text;
+	color: transparent;
+
 
 /* .accordion-content {
   background-color: #39b9d2;
@@ -93,26 +156,42 @@ img {
 
 .ContactForm {
   display:block;
-  width: 50%;
+  width: 45%;
   height: 100%;
-  margin: 0 auto;
+  margin:  auto;
   background-color: rgb(129, 59, 59);
+  background-image: url('https://as2.ftcdn.net/v2/jpg/00/94/53/25/500_F_94532580_XwSK8I03t7oQY246gc6vdeU1wm6q2r8P.jpg');
+
 }
 
 .classImage {
   /* background-image: linear-gradient(to right, #800020, #a9347e, #14c7d7); */
   width: 100%;
-  display: block;
-  
+  display: inline;
+  opacity: 0.5;
+  position: relative;
 }
 
 #Footer {
+  padding-top: 20px;
   text-align: center;  
 }
 
 #Header {
-  min-width: 75%;
-  max-width: 85%;
+  /* height: 20%; */
+  /* min-width: 75%;
+  max-width: 85%; */
+}
+
+#rainbowText {
+  /* font-size: 50px; */
+	font-weight: 700;
+	background-clip: text;
+	-webkit-background-clip: text;
+	color: transparent;
+	background-image: url('https://as2.ftcdn.net/v2/jpg/00/94/53/25/500_F_94532580_XwSK8I03t7oQY246gc6vdeU1wm6q2r8P.jpg');
+  -webkit-text-stroke: 3px black;
+
 }
 
 #filmColor {
@@ -120,23 +199,56 @@ img {
   background: radial-gradient(circle,
       Magenta 25%,
       rgb(255, 255, 255) 100%);
+      position: absolute, center;
+    /* width: 100%; */
+    background-size: 150px;
+    background-image: url('https://thumbs.dreamstime.com/z/cinema-seamless-pattern-icons-movie-background-tv-show-television-online-entertainment-concept-film-elements-repeating-251720735.jpg');
+    /* right: 100; */
+    z-index: 15;
+    /* min-height: 100px; */
 }
 
 #programmingColor {
-  color: orange;
   background: radial-gradient(circle,
       #af7fdd	 25%,
       rgb(255, 255, 255) 100%);
-}
+      background-size: 200px;
+      background-image: url('https://as1.ftcdn.net/v2/jpg/02/38/22/66/1000_F_238226669_2e3HdJV5zB9LKE2RWaWoDN692MLSnv4g.jpg');
+      z-index: 15;}
 
 #epicsColor {
   background: radial-gradient(circle,
       Yellow 25%,
       rgb(255, 255, 255) 100%);
-}
 
-#stwColor {
-  background: radial-gradient(circle,
+      background-size: 200px;
+      background-image: url('https://c8.alamy.com/comp/2GNBWB5/ancient-greece-mythology-history-vector-seamless-pattern-2GNBWB5.jpg');
+      z-index: 15;}
+
+#stwColor::selection {
+  background: green;
+  /* background: radial-gradient(circle,
       #00FF7F	 25%,
-      rgb(255, 255, 255) 100%);
+      rgb(255, 255, 255) 100%);  */
+}
+#stwColor {
+  /* background: radial-gradient(circle,
+      #00FF7F	 25%,
+      rgb(255, 255, 255) 100%); */
+      background-size: 200px;
+      background-image: url('https://image.shutterstock.com/image-vector/seamless-pattern-survival-people-surviving-600w-500423134.jpg');
+      z-index: 15;}
+
+#infoCard,
+.Calendar {
+  display:block;
+  width: 100%;
+  /* height: 100%; */
+  margin:  auto;
+  
+  background-image: url('https://as2.ftcdn.net/v2/jpg/00/94/53/25/500_F_94532580_XwSK8I03t7oQY246gc6vdeU1wm6q2r8P.jpg');
+  padding-top: 5px;
+  padding-right: 6px;
+  padding-bottom: 5px;
+  padding-left: 6px;
 }

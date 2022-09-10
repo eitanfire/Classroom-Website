@@ -3,7 +3,6 @@ import EitanInfo from '../features/EitanInfo.js';
 import { accordionData } from '../utils/content';
 import Calendar from '../components/Calendar.js';
 import Accordion from '../Accordion';
-import Footer from '../components/Footer.js';
 
 const HomePage = () => {
     return (
@@ -18,13 +17,12 @@ const HomePage = () => {
                     ))}
                 </Col>
                 <Row >
-                    <Col >
+                    <Col className='mt-4 pd-10'>
                         <Calendar />
                     </Col>
                 </Row>
-                    <Col>
-                        {/* <Footer /> */}
-                    </Col>
+                <Col>
+                </Col>
             </Row>
         </Container>
     );

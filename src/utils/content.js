@@ -38,6 +38,7 @@ export const accordionData = [
           href='https://docs.google.com/document/u/1/d/1yR1lESYS7ZWYixmg3kjDqU4PGZwXBjFEgef_vt8vqZk/edit' target="_blank">
           Course Description
           </a>
+          
             </div>
           </>
   },
