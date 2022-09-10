@@ -6,6 +6,7 @@ import Contact from '../app/img/contact-button.png';
 import Eitan from '../app/img/Eitans-portfolio-page-picture.png';
 import { Link } from 'react-router-dom';
 import { Button, Card, CardBody, CardImg, CardImgOverlay, CardTitle } from 'reactstrap';
+import Footer from '../components/Footer.js';
 
 const EitanInfo = () => {
     return (
@@ -34,8 +35,9 @@ const EitanInfo = () => {
                     </Link>
                     </Button>
                 </Col>
-                    
+
             </Row>
+            
         </Container>
         </CardBody>
                     </Card>

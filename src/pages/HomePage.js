@@ -23,7 +23,7 @@ const HomePage = () => {
                     </Col>
                 </Row>
                     <Col>
-                        <Footer />
+                        {/* <Footer /> */}
                     </Col>
             </Row>
         </Container>

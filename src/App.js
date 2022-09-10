@@ -13,7 +13,8 @@ import { accordionData } from './utils/content';
 import { Routes, Route } from 'react-router-dom';
 import EitansIntro from './pages/EitansIntro';
 import ContactForm from './pages/ContactForm';
-import HomePage from './pages/HomePage'
+import HomePage from './pages/HomePage';
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -25,6 +26,7 @@ function App() {
             <Route path='read-more' element={<EitansIntro />} />
             <Route path='contact' element={<ContactForm />} />
           </Routes>
+            <Footer />
     </div>
     
   );
