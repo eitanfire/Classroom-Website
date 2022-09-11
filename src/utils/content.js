@@ -6,7 +6,8 @@ import '../App.css';
 
 export const accordionData = [
   { 
-    title: `📽 Film`,
+    icon: <span className='icons'>📽</span>,
+    title:  `Film`,
     image: <img className="classImage mx-auto" src={Film} alt='Film banner' />,
     content: 
         < >
@@ -43,7 +44,9 @@ export const accordionData = [
           </>
   },
   { 
-    title: '👩🏿‍💻 Programming and Web Development',
+    icon: '👩🏿‍💻',
+    // <span className="icon">👩🏿‍💻</span>,
+    title: `Programming and Web Development`,
     image: <img className="classImage mx-auto" src={Programming} alt='Programming banner' />,
     content:  <>
      <div id='programmingColor' >
@@ -78,7 +81,8 @@ export const accordionData = [
     </>
   },
   {
-    title: '⚔ Epics',
+    icon: '⚔',
+    title: 'Epics',
     image: <img className="classImage mx-auto"src={Epics} alt='Epics banner' />,
     content:  <>
      <div id='epicsColor'>
@@ -113,7 +117,9 @@ export const accordionData = [
     </>
   },
   {
-    title: `🧭 Survive the World!`,
+    icon: `🧭`,
+    // icon: "🧭",
+    title: `Survive the World!`,
     image: <img className="classImage mx-auto" src={Survival} alt='Survive the World banner' />,
     content: <>
          <div id='stwColor'>

@@ -18,13 +18,14 @@ img {
 }
 
 #openCloseSymbols {
-  background-color: #21b2c2;
+  /* background-color: #21b2c2;
   background-image: linear-gradient(to right,red, orange, Yellow, green, Blue, Indigo, violet);
   margin-bottom: rem;
   font-size: 30px;
 	font-weight: 700;
-  opacity: 0.5;
-
+  opacity: 0.5; */
+  float: right;
+  padding-right: 2%;
 }
 
 #loveLearning {
@@ -88,6 +89,10 @@ img {
   background: linear-gradient(to right, #800020, #a9347e, #14c7d7); */
 }
 
+.accordion-title::before {
+  content:  [📽, 👩🏿‍💻, ⚔, 🧭 ];
+  color: red;
+}
 .accordion-title:hover {
   /* background-color: #3ab4cc;
   background: radial-gradient(circle,
@@ -115,6 +120,8 @@ img {
 	-webkit-background-clip: text;
 	color: transparent;
   -webkit-text-stroke: 1px rgb(71, 203, 86);
+  text-align: center;  
+
 }
 	/* font-weight: 700; */
   /* width: 100%;
@@ -161,7 +168,6 @@ img {
   margin:  auto;
   background-color: rgb(129, 59, 59);
   background-image: url('https://as2.ftcdn.net/v2/jpg/00/94/53/25/500_F_94532580_XwSK8I03t7oQY246gc6vdeU1wm6q2r8P.jpg');
-
 }
 
 .classImage {
@@ -251,4 +257,12 @@ img {
   padding-right: 6px;
   padding-bottom: 5px;
   padding-left: 6px;
+}
+
+/* :hover {
+  color: hotpink;
+} */
+
+.icons {
+  color: red;
 }

@@ -1,6 +1,5 @@
 import './App.css';
 import Header from './components/Header';
-
 import React from 'react'
 import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
 import { Routes, Route } from 'react-router-dom';
