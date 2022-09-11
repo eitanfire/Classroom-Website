@@ -81,8 +81,20 @@ img {
   background: linear-gradient(to right, #800020, #a9347e, #14c7d7); */
 }
 
-.accordion-title::before {
+/* .accordion-title::before {
   content:  [📽, 👩🏿‍💻, ⚔, 🧭 ];
+  color: red;
+} */
+
+#icon::before {
+  font-size: 50px;
+	font-weight: 700;
+	background-clip: text;
+	-webkit-background-clip: text;
+	color: transparent;
+	background-image: url('https://s3.amazonaws.com/usefulangle/news/95-5f6cc1ad5575e.jpg');
+}
+#icon:after, #icon:active, #icon:hover {
   color: red;
 }
 .accordion-title:hover {
@@ -97,12 +109,14 @@ img {
 	-webkit-background-clip: text;
 	color: transparent;
 	background-image: url('https://as2.ftcdn.net/v2/jpg/00/94/53/25/500_F_94532580_XwSK8I03t7oQY246gc6vdeU1wm6q2r8P.jpg');
+  /* color: red; */
+
 }
 
-.accordion-title:active {
+/* .accordion-title:active {
 	background-image: url('https://as2.ftcdn.net/v2/jpg/00/94/53/25/500_F_94532580_XwSK8I03t7oQY246gc6vdeU1wm6q2r8P.jpg');
 
-}
+} */
 
 /* .accordion-title, */
 .accordion-content {
@@ -112,8 +126,8 @@ img {
 	-webkit-background-clip: text;
 	color: transparent;
   -webkit-text-stroke: 1px rgb(71, 203, 86);
-  text-align: center;  
-
+  text-align: center;
+  /* opacity: 40%;  */
 }
 	/* font-weight: 700; */
   /* width: 100%;
@@ -163,19 +177,24 @@ img {
 }
 
 .classImage {
-  /* background-image: linear-gradient(to right, #800020, #a9347e, #14c7d7); */
+  block-size: 60px;
+  writing-mode: horizontal-tb;
+  position: relative;
+  text-align: center;
+  float: right;
+  /* height: auto; */
+}
+
+/* .classImage {
   width: 25%;
   display: inline;
   opacity: 0.5;
   position: absolute;
   text-align: center;
-  /* top: 0px; */
   padding-top: 5px;
   right: 175px;
   height: auto;
-  /* padding-left: 10%; */
-
-}
+} */
 
 #openCloseSymbols {
   /* background-color: #21b2c2;
@@ -184,7 +203,7 @@ img {
   font-size: 30px;
 	font-weight: 700;
   opacity: 0.5; */
-  float: right;
+  float: inline-end table-row ;
   padding-right: 2%;
 }
 
@@ -193,11 +212,11 @@ img {
   text-align: center;  
 }
 
-#Header {
+/* #Header { */
   /* height: 20%; */
   /* min-width: 75%;
   max-width: 85%; */
-}
+/* } */
 
 #rainbowText {
   /* font-size: 50px; */
@@ -206,7 +225,7 @@ img {
 	-webkit-background-clip: text;
 	color: transparent;
 	background-image: url('https://as2.ftcdn.net/v2/jpg/00/94/53/25/500_F_94532580_XwSK8I03t7oQY246gc6vdeU1wm6q2r8P.jpg');
-  -webkit-text-stroke: 3px black;
+  -webkit-text-stroke: 1px black;
 
 }
 
@@ -241,19 +260,28 @@ img {
       background-image: url('https://c8.alamy.com/comp/2GNBWB5/ancient-greece-mythology-history-vector-seamless-pattern-2GNBWB5.jpg');
       z-index: 15;}
 
-#stwColor::selection {
+/* #stwColor::selection {
   background: green;
-  /* background: radial-gradient(circle,
+  background: radial-gradient(circle,
       #00FF7F	 25%,
-      rgb(255, 255, 255) 100%);  */
-}
-#stwColor {
-  /* background: radial-gradient(circle,
+      rgb(255, 255, 255) 100%); } */
+ #stwColor {
+
+  background: radial-gradient(circle,
       #00FF7F	 25%,
-      rgb(255, 255, 255) 100%); */
+      rgb(255, 255, 255) 100%);
       background-size: 200px;
       background-image: url('https://image.shutterstock.com/image-vector/seamless-pattern-survival-people-surviving-600w-500423134.jpg');
-      z-index: 15;}
+      /* z-index: 15; */
+     }
+  
+    /* #stwColor::before, :hover {
+      /* background-color: rgba(152, 66, 211, 0.63); */
+
+        /* background: radial-gradient(circle,
+      #00FF7F	 25%,
+      rgb(255, 255, 255) 100%);
+    } */
 
 #infoCard,
 .Calendar {
@@ -273,6 +301,12 @@ img {
   color: hotpink;
 } */
 
-.icons {
-  color: red;
+#stwGreen {
+  background: radial-gradient(circle,
+      #00FF7F	 25%,
+      rgb(255, 255, 255) 100%);
+      background-size: 200px;
+      /* background-image: url('https://image.shutterstock.com/image-vector/seamless-pattern-survival-people-surviving-600w-500423134.jpg'); */
+      z-index: 15;
+      opacity: 40%;
 }

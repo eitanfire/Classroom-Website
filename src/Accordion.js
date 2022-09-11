@@ -12,7 +12,9 @@ const Accordion = ({ icon, title, content, image }) => {
             return icon+{title} 
         }) */}
 {/* <CardImg>{icon}</CardImg> */}
-      <CardTitle> {icon}{title}{image}<span id='openCloseSymbols' style={{ color: 'red' }}>{isActive ? ' 🪐' : ' 🚀'}</span></CardTitle>
+      <CardTitle>{icon}{title}{image}
+      {/* <span id='openCloseSymbols' style={{ color: 'red' }}>{isActive ? ' 🪐' : ' 🚀'}</span> */}
+      </CardTitle>
       </div>
       <Card>
       <CardBody className="accordion-content-theme">
