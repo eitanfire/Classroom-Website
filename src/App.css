@@ -17,16 +17,7 @@ img {
   border-radius: 5px;
 }
 
-#openCloseSymbols {
-  /* background-color: #21b2c2;
-  background-image: linear-gradient(to right,red, orange, Yellow, green, Blue, Indigo, violet);
-  margin-bottom: rem;
-  font-size: 30px;
-	font-weight: 700;
-  opacity: 0.5; */
-  float: right;
-  padding-right: 2%;
-}
+
 
 #loveLearning {
   color: rgb(55, 5, 5);
@@ -69,6 +60,7 @@ img {
   padding-right: 6px;
   padding-bottom: 5px;
   padding-left: 6px;
+  /* margin-right: 1px; */
   align-items: center;
 }
 
@@ -172,10 +164,28 @@ img {
 
 .classImage {
   /* background-image: linear-gradient(to right, #800020, #a9347e, #14c7d7); */
-  width: 100%;
+  width: 25%;
   display: inline;
   opacity: 0.5;
-  position: relative;
+  position: absolute;
+  text-align: center;
+  /* top: 0px; */
+  padding-top: 5px;
+  right: 175px;
+  height: auto;
+  /* padding-left: 10%; */
+
+}
+
+#openCloseSymbols {
+  /* background-color: #21b2c2;
+  background-image: linear-gradient(to right,red, orange, Yellow, green, Blue, Indigo, violet);
+  margin-bottom: rem;
+  font-size: 30px;
+	font-weight: 700;
+  opacity: 0.5; */
+  float: right;
+  padding-right: 2%;
 }
 
 #Footer {

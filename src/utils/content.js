@@ -7,7 +7,7 @@ import '../App.css';
 export const accordionData = [
   { 
     icon: <span className='icons'>📽</span>,
-    title:  `Film`,
+    title:  `📽 Film`,
     image: <img className="classImage mx-auto" src={Film} alt='Film banner' />,
     content: 
         < >
@@ -44,47 +44,49 @@ export const accordionData = [
           </>
   },
   { 
-    icon: '👩🏿‍💻',
-    // <span className="icon">👩🏿‍💻</span>,
-    title: `Programming and Web Development`,
+    icon: <span className='icons'>👩🏿‍💻</span>,
+    title: `👩🏿‍💻 Programming`,
     image: <img className="classImage mx-auto" src={Programming} alt='Programming banner' />,
-    content:  <>
+    content: 
+        < >
      <div id='programmingColor' >
-    <a
-    role='button'
-    className='btn btn-light btn-link'
-    href='https://docs.google.com/document/d/1jphl8btCdUDx29R0w4YJY3KA9PgyjdRWO5dmPQOFoSY/edit?usp=sharing' target="_blank">
-  ✏️ Warm-Up Questions for Programming
-    </a>
+          <a 
+          role='button'
+          className='btn btn-light btn-link'
+          href='https://docs.google.com/document/d/1jphl8btCdUDx29R0w4YJY3KA9PgyjdRWO5dmPQOFoSY/edit?usp=sharing' target="_blank">
+          ✏️ Warm-Up Questions for Programming
+          </a>
 
-    <a
-    role='button'
-    className='btn btn-light btn-link'
-    href='https://classroom.google.com/u/1/c/NTM4NTIyMjY5MzUz' target="_blank">
-    📚 Classroom Page
-    </a>
+          <a
+          role='button'
+          className='btn btn-light btn-link'
+          href='https://classroom.google.com/u/1/c/NTM4NTIyMjY5MzUz' target="_blank">
+          📚 Classroom Page
+          </a>
 
-    <a
-    role='button'
-    className='btn btn-light btn-link'
-    href='https://docs.google.com/document/d/1WjDPLyE6bn7bbq1AWPDyLj3vLUvgBibL_16e2_TViUM/edit?usp=sharing' target="_blank">
-    Honors & Extra Credit
-    </a>
+          <a
+          role='button'
+          className='btn btn-light btn-link'
+          href='https://docs.google.com/document/d/1WjDPLyE6bn7bbq1AWPDyLj3vLUvgBibL_16e2_TViUM/edit?usp=sharing' target="_blank">
+          Honors & Extra Credit
+          </a>
 
-    <a
-    role='button'
-    className='btn btn-light btn-link'
-    href='https://docs.google.com/document/u/1/d/1zsWaLaGfaWAjilx5ikrSGXRmq20ydaqAyRf_RKMhbUY/edit' target="_blank">
-    Course Description
-    </a>
-    </div>
-    </>
+          <a
+          role='button'
+          className='btn btn-light btn-link'
+          href='https://docs.google.com/document/u/1/d/1zsWaLaGfaWAjilx5ikrSGXRmq20ydaqAyRf_RKMhbUY/edit' target="_blank">
+          Course Description
+          </a>
+          
+            </div>
+          </>
   },
   {
     icon: '⚔',
-    title: 'Epics',
+    title: '⚔ Epics',
     image: <img className="classImage mx-auto"src={Epics} alt='Epics banner' />,
-    content:  <>
+    content:  
+    < >
      <div id='epicsColor'>
     <a
     role='button'
@@ -119,9 +121,10 @@ export const accordionData = [
   {
     icon: `🧭`,
     // icon: "🧭",
-    title: `Survive the World!`,
+    title: `🧭 Survive the World!`,
     image: <img className="classImage mx-auto" src={Survival} alt='Survive the World banner' />,
-    content: <>
+    content: 
+    < >
          <div id='stwColor'>
     <a
     role='button'
