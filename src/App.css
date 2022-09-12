@@ -121,12 +121,14 @@ img {
 /* .accordion-title, */
 .accordion-content {
   /* width: 220px; */
-  font-size: 50px;
+  /* font-size: 50px;
 	background-clip: text;
 	-webkit-background-clip: text;
-	color: transparent;
-  -webkit-text-stroke: 1px rgb(71, 203, 86);
+	color: transparent; */
+  -webkit-text-stroke: 1px rgb(9, 3, 90);
   text-align: center;
+  font-size: 200%;
+
   /* opacity: 40%;  */
 }
 	/* font-weight: 700; */
@@ -177,11 +179,12 @@ img {
 }
 
 .classImage {
-  block-size: 60px;
+  block-size: 65px;
   writing-mode: horizontal-tb;
   position: relative;
   text-align: center;
   float: right;
+  margin-top: .5%;
   /* height: auto; */
 }
 
@@ -243,6 +246,20 @@ img {
     /* min-height: 100px; */
 }
 
+#filmColor::before {    
+  content: "";
+  background: radial-gradient(circle,
+      Magenta 25%,
+      rgb(255, 255, 255) 100%);
+  background-size: cover;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  opacity: .75;
+}
+
 #programmingColor {
   background: radial-gradient(circle,
       #af7fdd	 25%,
@@ -250,6 +267,20 @@ img {
       background-size: 200px;
       background-image: url('https://as1.ftcdn.net/v2/jpg/02/38/22/66/1000_F_238226669_2e3HdJV5zB9LKE2RWaWoDN692MLSnv4g.jpg');
       z-index: 15;}
+
+      #programmingColor:before {    
+        content: "";
+        background: radial-gradient(circle,
+        #af7fdd	 25%,
+        rgb(255, 255, 255) 100%);
+        background-size: cover;
+        position: absolute;
+        top: 0px;
+        right: 0px;
+        bottom: 0px;
+        left: 0px;
+        opacity: .75;
+      }
 
 #epicsColor {
   background: radial-gradient(circle,
@@ -259,6 +290,20 @@ img {
       background-size: 200px;
       background-image: url('https://c8.alamy.com/comp/2GNBWB5/ancient-greece-mythology-history-vector-seamless-pattern-2GNBWB5.jpg');
       z-index: 15;}
+
+      #epicsColor:before {    
+        content: "";
+        background: radial-gradient(circle,
+        Yellow 25%,
+        rgb(255, 255, 255) 100%);
+        background-size: cover;
+        position: absolute;
+        top: 0px;
+        right: 0px;
+        bottom: 0px;
+        left: 0px;
+        opacity: .75;
+      }
 
 /* #stwColor::selection {
   background: green;
@@ -275,6 +320,28 @@ img {
       /* z-index: 15; */
      }
   
+     #stwColor::before {    
+      content: "";
+      background: radial-gradient(circle,
+      #00FF7F	 25%,
+      rgb(255, 255, 255) 100%);
+      background-size: cover;
+      position: absolute;
+      top: 0px;
+      right: 0px;
+      bottom: 0px;
+      left: 0px;
+      opacity: .75;
+}
+
+a {
+  position: relative;
+  color: #ffffff;  
+  font-size: 20rem;
+  line-height: 0.9;
+  text-align: center;
+}
+
     /* #stwColor::before, :hover {
       /* background-color: rgba(152, 66, 211, 0.63); */
 

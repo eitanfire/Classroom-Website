@@ -128,7 +128,7 @@ export const accordionData = [
     // icon: <span style={{ color: 'red' }}>🧭</span>,
     // Survive the World!,
     // title: `Survive the World!`,
-    image: <img className="classImage d-none d-xl-block mx-auto" src={Survival} alt='Survive the World banner' />,
+    image: <img className="classImage mx-auto" src={Survival} alt='Survive the World banner' />,
     content: 
     < >
          <div id='stwColor'>
