@@ -128,9 +128,16 @@ img {
   -webkit-text-stroke: 1px rgb(9, 3, 90);
   text-align: center;
   font-size: 200%;
+}
+
+.accordion-content a {
+  -webkit-transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  -ms-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;  
+}
 
   /* opacity: 40%;  */
-}
 	/* font-weight: 700; */
   /* width: 100%;
   transform: translateX(-50);
