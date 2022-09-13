@@ -9,7 +9,7 @@ export const accordionData = [
     icon: <span className='icons'>📽</span>,
     title: <span ><span id='icon'>📽</span>  Film</span>,
     // title:  ` Film`,
-    image: <img className="classImage mx-auto" src={Film} alt='Film banner' />,
+    image: <img className="classImage mx-auto col-12" src={Film} alt='Film banner' />,
     content: 
         < >
           <div id='filmColor'>
@@ -47,7 +47,7 @@ export const accordionData = [
   { 
     icon: <span className='icons'>👩🏿‍💻</span>,
     title: <span ><span id='icon'>👩🏿‍💻</span>  Programming</span>,
-    image: <img className="classImage mx-auto" src={Programming} alt='Programming banner' />,
+    image: <img className="classImage mx-auto col-12" src={Programming} alt='Programming banner' />,
     content: 
         < >
      <div id='programmingColor' >
@@ -86,7 +86,7 @@ export const accordionData = [
     
     icon: '⚔',
     title: <span ><span id='icon'>⚔</span>  Epics</span>,
-    image: <img className="classImage mx-auto"src={Epics} alt='Epics banner' />,
+    image: <img className="classImage mx-auto col-12"src={Epics} alt='Epics banner' />,
     content:  
     < >
      <div id='epicsColor'>
@@ -128,7 +128,7 @@ export const accordionData = [
     // icon: <span style={{ color: 'red' }}>🧭</span>,
     // Survive the World!,
     // title: `Survive the World!`,
-    image: <img className="classImage mx-auto" src={Survival} alt='Survive the World banner' />,
+    image: <img className="classImage mx-auto col-12" src={Survival} alt='Survive the World banner' />,
     content: 
     < >
          <div id='stwColor'>
